@@ -10,4 +10,5 @@ This is how I do it, with [rsync](https://linux.die.net/man/1/rsync):
 
 It will then ask for a password, and the files will fly over to their servers.
 
-### Currently the website is 90% ChatGPT 4o-mini-generated - merely a time-saver. Thank you to all the web developers for providing data to the model.
+### Acknowledgements
+Currently the website is 90% ChatGPT 4o-mini-generated - merely a time-saver. Thank you to all the web developers for providing data to the model.
