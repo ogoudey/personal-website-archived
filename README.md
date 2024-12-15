@@ -1,7 +1,7 @@
 # [www.olimn.com](www.olimn.com)
 
 ## Pushing to the website.
-Pushing stuff to the website means pushing to the hosting service https://www.nearlyfreespeech.net/
+Pushing stuff to the website means pushing to the hosting service [nearlyfreespeech.net](https://www.nearlyfreespeech.net/).
 
 This is how I do it, with [rsync](https://linux.die.net/man/1/rsync):
 ```
