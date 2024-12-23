@@ -1,0 +1,213 @@
+* {
+	font-family: ubuntu;
+}
+
+.title {
+    display: inline-block;
+    position: relative;
+    width:35%;
+}
+
+.title a {
+    text-decoration: none;
+	  color: black;
+}
+
+.author {
+	display: inline-block;
+	text-align: right;
+	
+}
+
+.display-section {
+	text-align:center;
+	margin-right:30%;
+	margin-left:30%;
+
+}
+
+.display {
+	border: 5px solid black;
+  	margin: 10px;
+  	padding: 10px;
+  	padding-left:10%;
+  	padding-right:10%;
+  	padding-bottom:100px;
+}
+
+.display-advert {
+	width:234px;
+	position:absolute;
+}
+
+.display-img {
+	margin-top:50px;
+	width:230px;
+	float:left;
+  	border: 2px solid black;
+}
+
+
+
+.blogentry {
+	width: 40%;
+	border: 5px solid black;
+	padding: 15px;
+	margin-top:10px;
+}
+
+.blogentry h3{
+	margin-top: 0px;
+}
+
+.blogentry p {
+	text-indent: 30px;
+	text-align: justify;
+}
+
+.dropdowns {
+	position: relative;
+	display: inline-block;
+	width:50%
+}
+
+
+.recipesection1 {
+	display: grid;
+	
+	/* CHANGE FOR DYNAMIC RECIPE ADDING: */
+	grid-template-columns: auto auto;
+	/* --------------------------------- */
+}
+
+.recipesection2 {
+	display: grid;
+	
+	/* CHANGE FOR DYNAMIC RECIPE ADDING: */
+	grid-template-columns: auto auto auto;
+	/* --------------------------------- */
+}
+
+.recipesection3 {
+	display: grid;
+	
+	/* CHANGE FOR DYNAMIC RECIPE ADDING: */
+	grid-template-rows: auto auto;
+	/* --------------------------------- */
+}
+
+.recipe {
+  	border: 5px solid black;
+  	margin: 10px;
+  	padding: 10px;
+  	padding-left:17%;
+  	padding-right:17%;
+  	padding-bottom:100px;
+}
+
+.recipe h3 {
+	text-align: center;
+}
+
+.recipe h4 {
+	margin:0px;
+	margin-top:40px;
+}
+
+.recipe p {
+	padding-left:25px;
+	margin: 5px;
+}
+
+.recipeimg {
+	margin-top:50px;
+	width:230px;
+	float:right;
+  	border: 2px solid black;
+}
+
+.amb-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.amb-btn:hover {
+	background-color: #3e8e41;
+}
+
+.amb-btn a {
+	text-decoration: none;
+	color: black;
+}
+
+.divider {
+	height: 50px;
+	background-color: #4CAF50;
+	margin-top:20px;
+}
+
+.static-content {
+	margin:5px;
+	padding: 5px;
+	border:5px solid black;
+	
+}
+
+/* Style for the dropdown button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropbtn a {
+	text-decoration: none;
+	color: black;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
