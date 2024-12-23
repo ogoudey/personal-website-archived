@@ -1,5 +1,7 @@
 # [www.olimn.com](https://www.olimn.com)
 
+This is the OLD website, archived here publicly.
+
 ## Pushing to the Website
 Pushing stuff to the website means pushing to the hosting service [nearlyfreespeech.net](https://www.nearlyfreespeech.net/).
 
