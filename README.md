@@ -15,10 +15,9 @@ It will then ask for a password, then the files will fly over to NFSN's servers.
 
 ### TODOs:
 - Link some iframe spreadsheets
-- Link Scratch games
 - what other kind of iframes are there?
 - make a site map thing
-- make music?
+- make music? No.
 
 
 
