@@ -1,0 +1,2 @@
+rsync_dir: "src/html/*"
+rsync_remote: "oling_olimn@ssh.nyc1.nearlyfreespeech.net"
