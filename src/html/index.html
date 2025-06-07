@@ -79,6 +79,13 @@
             aspect-ratio: 2 / 1;
             grid-column: span 2;
             place-items: baseline;
+            display: block;
+            text-align: left;
+        }
+        .grid-item.raw.halfsy {
+
+            grid-column: span 2;
+            place-items: baseline;
         }
         footer {
             text-align: center;
@@ -106,12 +113,13 @@
         <h2>About Me</h2>
         <div class="grid">
             <div class="grid-item basic">I do consulting as a web developer.</div>
-            <div class="grid-item raw">I do it.</div>
+            <div class="grid-item raw">These are some examples -></div>
             <div class="grid-item basic"><iframe src="https://www.cagoudey.com" allowfullscreen>Your browser doesn’t support iframes.</iframe></div>
             <div class="grid-item basic"><iframe src="https://www.tendocean.com" allowfullscreen>Your browser doesn’t support iframes.</iframe></div>
             <div class="grid-item basic wide">I also go to Tufts University as a grad student. Here, I am studying computer science with an emphasis on robotics.</div>
+            <div class="grid-item raw"></div>
             <div class="grid-item basic halfsy"><img src="habitat-67.jpg"></img></div>
-            <div class="grid-item raw">I do it.</div>
+            
             <div class="grid-item basic">
                 <a href="https://bsky.app/profile/ogtog.bsky.social" target="_blank" rel="noopener noreferrer"><img
                       src="https://commons.wikimedia.org/wiki/Special:FilePath/Bluesky_Logo.svg?width=32"
@@ -128,6 +136,17 @@
                 </a>
             </div>
         </div>
+        <h2>My Philosophy</h2>
+        <div class="grid">
+            <div class="grid-item basic halfsy">Currently, I outsource domain name registration and server hosting to <a href="https://www.nearlyfreespeech.net/services/hosting">NearlyFreeSpeech.net</a>. Besides this small price, there is no barrier to easily publishing a website. A website is <i>your free speech zone</i> on the Internet.</div>
+            <div class="grid-item raw halfsy"><img src="https://www.nearlyfreespeech.net/images/irontriangle.png" alt="Iron Triangle"></div>
+            <div class="grid-item raw"></div>
+            <div class="grid-item raw"></div>
+            <div class="grid-item raw halfsy">I simply put stuff on the Storage node above.</div>
+        </div>
+        
+        
+        
     </div>
 
     <footer>
