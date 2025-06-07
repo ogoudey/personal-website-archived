@@ -46,11 +46,39 @@
             margin-top: 20px;
         }
         .grid-item {
-            background-color: #e8e8f0;
+            
+            background-color: #fff;
             padding: 20px;
             border-radius: 8px;
+        }
+        .grid-item.basic {
+            background-color: #e8e8f0;
             text-align: center;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: grid;
+            place-items: center;
+        }
+        .grid-item.raw {
+            text-align: left;
+        }
+        .grid-item iframe {
+          width: 100%;
+          height: 100%;
+          border: none;
+        }
+        .grid-item img {
+            width:auto;
+            height: 100%;
+            object-fit: contain; 
+        }
+        .grid-item.basic.wide {
+            grid-column: span 4;
+            place-items: baseline; 
+        }
+        .grid-item.basic.halfsy {
+            aspect-ratio: 2 / 1;
+            grid-column: span 2;
+            place-items: baseline;
         }
         footer {
             text-align: center;
@@ -58,6 +86,7 @@
             background-color: #333;
             color: #fff;
         }
+        
     </style>
 </head>
 <body>
@@ -74,19 +103,35 @@
     </nav>
 
     <div class="content">
-        <h2>Services</h2>
+        <h2>About Me</h2>
         <div class="grid">
-            <div class="grid-item">Web Development</div>
-            <div class="grid-item">Mobile Apps</div>
-            <div class="grid-item">UI/UX Design</div>
-            <div class="grid-item">SEO Optimization</div>
-            <div class="grid-item">Cloud Solutions</div>
-            <div class="grid-item">Consulting</div>
+            <div class="grid-item basic">I do consulting as a web developer.</div>
+            <div class="grid-item raw">I do it.</div>
+            <div class="grid-item basic"><iframe src="https://www.cagoudey.com" allowfullscreen>Your browser doesn’t support iframes.</iframe></div>
+            <div class="grid-item basic"><iframe src="https://www.tendocean.com" allowfullscreen>Your browser doesn’t support iframes.</iframe></div>
+            <div class="grid-item basic wide">I also go to Tufts University as a grad student. Here, I am studying computer science with an amphasis on robotics.</div>
+            <div class="grid-item basic halfsy"><img src="habitat-67.jpg"></img></div>
+            <div class="grid-item raw">I do it.</div>
+            <div class="grid-item basic">
+                <a href="https://bsky.app/profile/ogtog.bsky.social" target="_blank" rel="noopener noreferrer"><img
+                      src="https://commons.wikimedia.org/wiki/Special:FilePath/Bluesky_Logo.svg?width=32"
+                      alt="Bluesky logo for @ogtog.bsky.social"
+                      style="width:32px; height:auto;"
+                    >
+                </a>
+                <a href="mailto:olin.goog@gmail.com" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <button 
+                      type="button"
+                      style="padding: 0.5rem 1rem;background-color: #1e85f7;color: #fff;border: none;border-radius: 4px;cursor: pointer;">
+                      Email Olin
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2024 Olin Goudey. All rights reserved.</p>
+        <p>&copy; 2025 Olin Goudey. All rights reserved.</p>
     </footer>
 </body>
 </html>
