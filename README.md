@@ -13,13 +13,7 @@ $ rsync src/html/* oling_olimn@ssh.nyc1.nearlyfreespeech.net: -a
 ```
 It will then ask for a password, then the files will fly over to NFSN's servers.
 
-### TODOs:
-- Link some iframe spreadsheets
-- what other kind of iframes are there?
-- make a site map thing
-- make music? No.
+## Outdated-ness
+This is an simple, minimalist way to maintain a website. It is also very transparent/public-facing.
 
-
-
-### Acknowledgements
-Currently the website is 90% ChatGPT 4o-mini-generated - merely a time-saver. Thank you to all the web developers for providing data to the model, intentionally or not.
+As of 6/7/25 this method is no longer used.
